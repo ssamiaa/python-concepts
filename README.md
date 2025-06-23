@@ -2,9 +2,12 @@
 
 This repository contains hands-on Python programs developed as part of an internship training focused on mastering Python programming concepts. The exercises progress from basic syntax and conditionals to object-oriented programming (OOP).
 
+---
+
 ## 📚 Topics Covered
 
 ### 1. Dictionaries & Loops
+
 - **Student Subject Report**
   - Nested dictionary for student marks
   - Student-wise average
@@ -12,6 +15,7 @@ This repository contains hands-on Python programs developed as part of an intern
   - Overall topper
 
 ### 2. String Handling & Frequency Analysis
+
 - **Word Frequency Counter**
   - Take input sentence
   - Convert to lowercase
@@ -19,29 +23,46 @@ This repository contains hands-on Python programs developed as part of an intern
   - Sort and display from highest to lowest
 
 ### 3. Conditional Statements & Functions
+
 - **ATM Simulation**
   - Check balance, deposit, withdraw, exit
   - Menu loop using conditionals
   - Password authentication with 3 attempts
 
 ### 4. Object-Oriented Programming (OOP)
+
 - **Student Record System**
   - Class with constructor, instance variables
   - `@staticmethod` and `@classmethod` usage
+
 - **Employee Management System**
   - Class and instance variables
-  - `display()`, `change_company()`, and `is_high_salary()` methods
+  - `display()`, `change_company()`, and `is_salary_high()` methods
+
+### 5. Inheritance & Polymorphism
+
+- **Online Payment System**
+  - Base class `PaymentMethod` with `pay()` and `payment_type()` methods
+  - Subclasses: `CreditCard`, `UPI`, `NetBanking`
+  - Method overriding to simulate real-world payment behavior
+  - `process_payment()` function demonstrating polymorphism
+
+---
 
 ## 🧠 Learning Objectives
 
 - Practice basic Python syntax and logic
 - Use functions and conditionals effectively
 - Work with dictionaries and strings
-- Understand and implement OOP concepts in Python
+- Understand and implement OOP concepts: classes, static/class methods, inheritance, and polymorphism
+
+---
 
 ## 🚧 Status
 
 Training in progress — more Python programs and OOP exercises will be added.
+
+---
 
 ## 🔖 How to Run
 
@@ -49,3 +70,4 @@ Make sure Python is installed, then run any script using:
 
 ```bash
 python filename.py
+
