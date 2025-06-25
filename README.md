@@ -1,6 +1,6 @@
 # Python Concepts Practice
 
-This repository contains hands-on Python programs developed as part of an internship training focused on mastering Python programming concepts. The exercises progress from basic syntax and conditionals to object-oriented programming (OOP).
+This repository contains hands-on Python programs developed as part of an internship training focused on mastering core Python programming concepts. The exercises progress from basic syntax and logic to object-oriented programming and file handling.
 
 ---
 
@@ -8,59 +8,77 @@ This repository contains hands-on Python programs developed as part of an intern
 
 ### 1. Dictionaries & Loops
 
-- **Student Subject Report**
-  - Nested dictionary for student marks
-  - Student-wise average
-  - Subject-wise toppers
-  - Overall topper
+**Student Subject Report**
+
+* Nested dictionary for student marks
+* Student-wise average
+* Subject-wise toppers
+* Overall topper
 
 ### 2. String Handling & Frequency Analysis
 
-- **Word Frequency Counter**
-  - Take input sentence
-  - Convert to lowercase
-  - Count word frequency
-  - Sort and display from highest to lowest
+**Word Frequency Counter**
+
+* Take input sentence
+* Convert to lowercase
+* Count word frequency
+* Sort and display from highest to lowest
 
 ### 3. Conditional Statements & Functions
 
-- **ATM Simulation**
-  - Check balance, deposit, withdraw, exit
-  - Menu loop using conditionals
-  - Password authentication with 3 attempts
+**ATM Simulation**
+
+* Check balance, deposit, withdraw, exit
+* Menu loop using conditionals
+* Password authentication with 3 attempts
 
 ### 4. Object-Oriented Programming (OOP)
 
-- **Student Record System**
-  - Class with constructor, instance variables
-  - `@staticmethod` and `@classmethod` usage
+**Student Record System**
 
-- **Employee Management System**
-  - Class and instance variables
-  - `display()`, `change_company()`, and `is_salary_high()` methods
+* Class with constructor and instance variables
+* Usage of `@staticmethod` and `@classmethod`
+
+**Employee Management System**
+
+* Class and instance variables
+* `display()`, `change_company()`, and `is_salary_high()` methods
 
 ### 5. Inheritance & Polymorphism
 
-- **Online Payment System**
-  - Base class `PaymentMethod` with `pay()` and `payment_type()` methods
-  - Subclasses: `CreditCard`, `UPI`, `NetBanking`
-  - Method overriding to simulate real-world payment behavior
-  - `process_payment()` function demonstrating polymorphism
+**Online Payment System**
+
+* Base class `PaymentMethod` with `pay()` and `payment_type()` methods
+* Subclasses: `CreditCard`, `UPI`, `NetBanking`
+* Method overriding to simulate real-world payment behavior
+* `process_payment()` function demonstrating polymorphism
+
+### 6. Exception Handling
+
+**User Registration Validator**
+
+* Input validation for username, age, and email
+* Custom exceptions for invalid input
+* Use of `try-except` blocks with both built-in and user-defined exceptions
+
+### 7. File Handling
+
+**Student Grades File Manager**
+
+* Append student name and grade to `grades.txt`
+* View all student records
+* Search for a student by name using file operations
 
 ---
 
 ## 🧠 Learning Objectives
 
-- Practice basic Python syntax and logic
-- Use functions and conditionals effectively
-- Work with dictionaries and strings
-- Understand and implement OOP concepts: classes, static/class methods, inheritance, and polymorphism
-
----
-
-## 🚧 Status
-
-Training in progress — more Python programs and OOP exercises will be added.
+* Practice basic Python syntax and logic
+* Use conditionals, loops, and functions effectively
+* Work with strings, dictionaries, and files
+* Understand and implement OOP principles: classes, inheritance, polymorphism
+* Apply exception handling for robust programs
+* Use file I/O to manage data persistently
 
 ---
 
@@ -70,4 +88,5 @@ Make sure Python is installed, then run any script using:
 
 ```bash
 python filename.py
+```
 
